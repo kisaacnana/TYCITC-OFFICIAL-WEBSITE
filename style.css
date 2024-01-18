@@ -84,7 +84,7 @@ nav img{
     transition: 0.5s;
 }
 
-nav .fa{
+nav .fa-solid{
     display: none;
 }
 @media(max-width:700px){
