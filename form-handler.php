@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'fgciwg@gmail.com';
+$email_from = 'https://kisaacnana.github.io/CHURCH/';
 
 $email_subject = 'New Form Submission';
 
