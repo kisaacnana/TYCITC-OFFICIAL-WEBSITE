@@ -396,12 +396,13 @@ h3{
     padding: 60px 0;
 }
 .blog-left{
-    flex-basis: 65%;
+    flex-basis: 40%;
 }
 .blog-left img{
     width: 100%;
     border-radius: 10px;
     transition: 0.5s;
+    margin-top: 20px;
 }
     .blog-left img:hover{
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -413,10 +414,15 @@ h3{
 }
 .blog-left p{
     color: #999;
-    padding: 0;
 }
+
 .blog-right{
-    flex-basis: 32%;
+    flex-basis: 45%;
+}
+.blog-right img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
 }
 .blog-right h3{
     background: rgb(2, 153, 2);
@@ -438,9 +444,11 @@ h3{
     border: 1px solid #ccc;
     margin: 50px 0;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 .comment-box h3{
     text-align: left;
+    border-radius: 10px;
 }
 .comment-form input, .comment-form textarea{
     width: 100%;
@@ -450,9 +458,61 @@ h3{
     border: none;
     outline: none;
     background: #f0f0f0;
+    border-radius: 10px;
 }
 .comment-form button{
     margin: 10px 0;
+}
+.blog2-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog2{
+    flex-basis: content-flex;
+}
+.blog2 img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.blog2 img:hover{
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.blog2 h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog2 p{
+    color: #999;
+    padding: 0;
+}
+
+.blog3-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog3{
+    flex-basis: content-flex;
+}
+.blog3 img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.blog3 img:hover{
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.blog3 h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog3 p{
+    color: #999;
+    padding: 0;
 }
 @media(max-width:700px){
     .sub-header h1{
