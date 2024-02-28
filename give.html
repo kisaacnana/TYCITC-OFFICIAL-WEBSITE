@@ -43,14 +43,16 @@
         <div class="center">
         <div class="give-box">
             <h3>Fill The Form To Make A Giving</h3>
-                <form class="payment-form">
-                    <input type="text" placeholder="Enter Name">
-                    <input type="text" placeholder="Enter Mobile Number">
-                    <input type="text" placeholder="Enter Amount(GHS)">
-                    <input type="email" placeholder="Enter Email">
-                    <input type="text" placeholder="Reference">
-                    <button type="submit" class="hero-btn red-btn">MAKE PAYMENT</button>
+                <form class="payment-form" id="paymentForm">
+                    <input type="text" placeholder="Enter Name" id="first-name" required>
+                    <input type="text" placeholder="Enter Mobile Number" id="number" required>
+                    <input type="number" placeholder="Enter Amount(GHS)" id="amount" required>
+                    <input type="email" placeholder="Enter Email" id="email-address" required>
+                    <input type="text" placeholder="Reference" id="reference" required>
+                    <button type="submit" onclick="payWithPaystack()" class="hero-btn red-btn">Pay</button>
                     </form>
+                    
+<script src="https://js.paystack.co/v1/inline.js"></script>
                 </div>
          </div>
 
@@ -77,7 +79,7 @@
 
 
 
-
+<script src="js/pay.js"></script>
         <!-----Javascript for Toggle Menu----->
         <script>
 
