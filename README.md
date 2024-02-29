@@ -18,7 +18,7 @@
 ###
 
 <div align="center">
-  <img height="703" src="https://kisaacnana.github.io/CHURCH/images/bg.jpg"  />
+  <img height="500" src="https://kisaacnana.github.io/CHURCH/images/bg.jpg"  />
 </div>
 
 ###
