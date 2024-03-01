@@ -641,6 +641,10 @@ h3{
     font-size: 70px;
     color: rgb(2, 153, 2);
 }
+.icons .fa-solid fa-xmark{
+    font-size: 70px;
+    color: rgb(255, 51, 51);
+}
 h2{
     text-align: center;
     font-weight: 600;
