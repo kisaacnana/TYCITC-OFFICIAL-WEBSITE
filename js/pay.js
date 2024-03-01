@@ -10,7 +10,7 @@ function payWithPaystack(e) {
 
   let handler = PaystackPop.setup({
 
-    key: 'pk_live_28595cdc6d3b12ae522d8eaf589bf7f1eb039369', // Replace with your public key
+    key: 'pk_live_28595cdc6d3b12ae522d8eaf589bf7f1eb039369', 
 
     email: document.getElementById("email-address").value,
 
@@ -24,8 +24,7 @@ function payWithPaystack(e) {
     // label: "Optional string that replaces customer email"
 
     onClose: function(){
-
-      alert('Window closed.');
+      window.location.replace("https://kisaacnana.github.io/TYCITC-OFFICIAL-WEBSITE/unsuccessful.html")
 
     },
 
