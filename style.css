@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+/*-----Montserrat <uniquifier>: Use a unique and descriptive class name <weight>: Use a value from 100 to 900-----*/
 .header{
     min-height: 100vh;
     width: 100%;
@@ -282,6 +283,7 @@ h3{
 }
 .testimony-col p{
     padding: 0;
+    text-align: left;
 }
 .testimony-col h3{
     margin-top: 15px;
@@ -362,11 +364,12 @@ h3{
 }
 .about-col{
     flex-basis: 48%;
-    padding: 30px 2px;
+    padding: 20px 2px;
 }
 .about-col img{
     width: 100%;
     border-radius: 10px;
+    margin-top: 20px;
     transition: 0.5s;
 }
 .about-col img:hover{
@@ -376,8 +379,10 @@ h3{
     padding-top: 0;
 
 }
+
 .about-col p{
     padding: 15px 0 25px;
+    text-align : left;
 }
 .red-btn{
     border: 1px solid rgb(2, 153, 2);
@@ -414,6 +419,7 @@ h3{
 }
 .blog-left p{
     color: #999;
+    text-align : left;
 }
 
 .blog-right{
@@ -431,6 +437,10 @@ h3{
     font-size: 16px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+.blog-right p{
+    color: #999;
+    text-align : left;
 }
 .blog-right div{
     display: flex;
@@ -487,6 +497,7 @@ h3{
 .blog2 p{
     color: #999;
     padding: 0;
+    text-align : left;
 }
 
 .blog3-content{
@@ -513,6 +524,7 @@ h3{
 .blog3 p{
     color: #999;
     padding: 0;
+    text-align : left;
 }
 @media(max-width:700px){
     .sub-header h1{
