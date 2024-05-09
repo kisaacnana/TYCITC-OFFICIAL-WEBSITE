@@ -258,6 +258,10 @@ h3{
     text-align: left;
 }
 
+.services-col p{
+    text-align: left;
+}
+
 /*-----testimonies-----*/
 .testimonies{
     width: 80%;
