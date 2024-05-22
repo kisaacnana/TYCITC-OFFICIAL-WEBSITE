@@ -255,11 +255,11 @@ h3{
 .services-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .services-col p{
-    text-align: left;
+    text-align: justify;
 }
 
 /*-----testimonies-----*/
@@ -386,7 +386,7 @@ h3{
 
 .about-col p{
     padding: 15px 0 25px;
-    text-align : left;
+    text-align : justify;
 }
 .red-btn{
     border: 1px solid rgb(2, 153, 2);
@@ -420,11 +420,11 @@ h3{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
-    text-align : left;
+    
 }
 .blog-left p{
     color: #999;
-    text-align : left;
+    text-align : justify;
 }
 
 .blog-right{
@@ -445,7 +445,7 @@ h3{
 }
 .blog-right p{
     color: #999;
-    text-align : left;
+    text-align : justify;
 }
 .blog-right div{
     display: flex;
