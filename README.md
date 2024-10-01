@@ -22,4 +22,4 @@
 </div>
 
 ###
-<a href="[https://kisaacnana.github.io/TYCITC-OFFICIAL-WEBSITE/](https://tycitc-official-website.vercel.app/](https://www.tycitc.org)">View Website</a>
+<a href="https://www.tycitc.org">View Website</a>
