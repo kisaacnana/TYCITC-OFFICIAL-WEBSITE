@@ -627,7 +627,7 @@ h3{
     text-align: center;
     border-radius: 10px;
 }
-.payment-form input{
+.payment-form input, .payment-form textarea{
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -637,7 +637,7 @@ h3{
     background: #f0f0f0;
     border-radius: 10px;
 }
-.give-box button{
+.payment-form button{
     margin: 10px 0;
 }
 @media(max-width: 700px){
