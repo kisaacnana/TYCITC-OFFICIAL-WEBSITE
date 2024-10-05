@@ -637,7 +637,7 @@ h3{
     background: #f0f0f0;
     border-radius: 10px;
 }
-.give button{
+.give-box button{
     margin: 10px 0;
 }
 @media(max-width: 700px){
