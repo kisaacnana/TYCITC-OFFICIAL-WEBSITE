@@ -419,9 +419,18 @@ h3{
 .blog-left h2{
     color: #222;
     font-weight: 600;
-    margin: 30px 0;
-    
+    margin: 30px 0; 
 }
+
+.blog-left h3{
+    background: rgb(2, 153, 2);
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
 .blog-left p{
     color: #999;
     text-align : justify;
@@ -433,16 +442,14 @@ h3{
 .blog-right img{
     width: 100%;
     border-radius: 10px;
+    margin-top: 20px;
     transition: 0.5s;
 }
-.blog-right h3{
-    background: rgb(2, 153, 2);
-    color: #fff;
-    padding: 7px 0;
-    font-size: 16px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+
+.blog-right img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
 .blog-right p{
     color: #999;
     text-align : justify;
@@ -461,7 +468,7 @@ h3{
     padding: 10px 20px;
     border-radius: 10px;
 }
-.comment-box h3{
+.comment-box h4{
     text-align: left;
     border-radius: 10px;
 }
