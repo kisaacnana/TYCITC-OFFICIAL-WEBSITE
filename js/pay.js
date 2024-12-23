@@ -24,7 +24,7 @@ function payWithPaystack(e) {
     // label: "Optional string that replaces customer email"
 
     onClose: function(){
-      window.location.replace("https://kisaacnana.github.io/TYCITC-OFFICIAL-WEBSITE/unsuccessful.html");
+      window.location.replace("./unsuccessful");
 
     },
 
@@ -32,7 +32,7 @@ function payWithPaystack(e) {
 
       let message = 'Payment complete! Reference: ' + response.reference;
 
-      window.location.replace("https://kisaacnana.github.io/TYCITC-OFFICIAL-WEBSITE/successful.html");
+      window.location.replace("./successful");
 
     }
 
