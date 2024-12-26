@@ -7,6 +7,5 @@
       { "source": "/contact", "destination": "/contact.html" },
       { "source": "/mission", "destination": "/mission.html" },
       { "source": "/blog", "destination": "/blog.html" }
-      { "source": "/index", "destination": "/index.html" }
     ]
   }
