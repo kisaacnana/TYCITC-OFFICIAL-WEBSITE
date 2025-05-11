@@ -10,7 +10,7 @@ function payWithPaystack(e) {
 
   let handler = PaystackPop.setup({
 
-    key: 'pk_live_28595cdc6d3b12ae522d8eaf589bf7f1eb039369', 
+    key: 'pk_live_d7933ec336f543b0be9622e064adfcdd08edd1ef', 
 
     email: document.getElementById("email-address").value,
 
