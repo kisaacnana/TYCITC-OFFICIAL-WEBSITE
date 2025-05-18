@@ -752,18 +752,4 @@ p{
             font-size: 1.2rem;
             margin-bottom: 1.5em;
         }
-        .hero-btn {
-            background: rgb(2, 153, 2);
-            color: #fff;
-            padding: 12px 32px;
-            border: none;
-            border-radius: 6px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            text-decoration: none;
-            transition: background 0.2s;
-            display: inline-block;
-        }
-        .hero-btn:hover, .hero-btn:focus {
-            background: #016601;
-        }
+}
