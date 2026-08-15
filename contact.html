@@ -1,122 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact TYCITC and Full Gospel Church International Ashaiman Central.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Contact Us | TYCITC</title>
+    <link rel="icon" type="image/png" href="images/logo1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+<section class="sub-header3">
+    <nav>
+        <a href="index.html" aria-label="TYCITC home"><img src="images/logo4.png" alt="TYCITC logo"></a>
+        <div class="nav-links" id="navLinks">
+            <button type="button" class="menu-close" onclick="hideMenu()" aria-label="Close navigation"><i class="fa-solid fa-xmark"></i></button>
+            <ul>
+                <li><a href="./">HOME</a></li>
+                <li><a href="./about">ABOUT</a></li>
+                <li><a href="./mission">MISSION</a></li>
+                <li><a href="./blog">BLOG</a></li>
+                <li><a href="./contact" aria-current="page">CONTACT</a></li>
+                <li><a href="./give">GIVE</a></li>
+            </ul>
+        </div>
+        <button type="button" class="menu-open" onclick="showMenu()" aria-label="Open navigation" aria-controls="navLinks"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title> Church Website Design </title>
-         <link rel="icon" type="image/png" href="images/logo1.png">
-         <link rel="stylesheet" href="style.css">
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+<section class="location" aria-label="Church location">
+    <iframe title="Map showing Full Gospel Church International Ashaiman Central" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2061703402187!2d-0.04206142590861622!3d5.6945166942872225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf81acf7c76ecb%3A0xc6e91d640448f832!2sFull%20Gospel%20Church%20International%20Ashaiman%20Central!5e1!3m2!1sen!2sgh!4v1705631684484!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
-    <body>
-        <section class="sub-header3">
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><h5>Ashaiman Jericho</h5><p>Near the Bridge (Mali Estate)</p></span></div>
+            <div><i class="fa-solid fa-phone-volume" aria-hidden="true"></i><span><h5><a href="tel:+233244956133">+233 24 495 6133</a><br><a href="tel:+233554964244">+233 55 496 4244</a></h5><p>Monday to Sunday</p></span></div>
+            <div><i class="fa-solid fa-envelope" aria-hidden="true"></i><span><h5><a href="mailto:fgciwg@gmail.com">fgciwg@gmail.com</a></h5><p>Send us an Email</p></span></div>
+        </div>
 
-            <nav>
-                <a href="index.html"><img src="images/logo4.png"></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                    <ul>
-                       <li><a href="./">HOME</a></li>
-                        <li><a href="./about">ABOUT</a></li>
-                        <li><a href="./mission">MISSION</a></li>
-                        <li><a href="./blog">BLOG</a></li>
-                        <li><a href="./contact">CONTACT</a></li>
-                        <li><a href="./give">GIVE</a></li>
-                    </ul>
+        <div class="contact-col">
+            <div id="form-status" role="status" aria-live="polite"></div>
+            <form action="form-handler.php" method="post">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name" autocomplete="name" maxlength="120" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter email address" autocomplete="email" required>
+
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" name="subject" placeholder="Enter your subject" maxlength="200" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="8" name="message" placeholder="Message" maxlength="5000" required></textarea>
+
+                <!-- Honeypot field for simple bot filtering. Keep visually hidden. -->
+                <div style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+                    <label for="website">Website</label>
+                    <input id="website" type="text" name="website" tabindex="-1" autocomplete="off">
                 </div>
-                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-            </nav>
-            <h1>Contact Us</h1>
-        </section>
 
-        <!-----contact us----->
-
-       <section class="location">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2061703402187!2d-0.04206142590861622!3d5.6945166942872225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf81acf7c76ecb%3A0xc6e91d640448f832!2sFull%20Gospel%20Church%20International%20Ashaiman%20Central!5e1!3m2!1sen!2sgh!4v1705631684484!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-       </section>
-
-       <section class="contact-us">
-
-        <div class="row">
-            <div class="contact-col">
-            <div>
-            <i class="fa-solid fa-location-dot"></i>
-            <span>
-                <h5>Ashaiman Jericho</h5>
-                <p>Near the Bridge (Mali Estate)</p>
-            </span>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
         </div>
-        <div>
-            <i class="fa-solid fa-phone-volume"></i>
-            <span>
-                <h5>+233 24 495 6133
-                    <br>+233 55 496 4244
-                </h5>
-                <p>Monday to Sunday</p>
-            </span>
-        </div>
-        <div>
-            <i class="fa-solid fa-envelope"></i>
-            <span>
-                <h5>fgciwg@gmail.com</h5>
-                <p>Send us an Email</p>
-            </span>
-        </div>
-        </div>
-            <div class="contact-col">
+    </div>
+</section>
 
-                <form action="form-handler.php" method="post">
-                    <input type="text" name="name" placeholder="Enter your name" required>
-                    <input type="email" name="email" placeholder="Enter email address" required>
-                    <input type="text" name="subject" placeholder="Enter your subject" required>
-                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">Send Message</button>
-                </form>
-            </div>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To reach and equip our generation to discover their purpose in life through contemporary,<br>creative and caring ways, which will result in a million-member church of fully devoted Christians with countless branches across the globe.</p>
+    <div class="icons" aria-label="Social media links">
+        <a href="https://web.facebook.com/fgci.wg" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/fgci.wg" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/@fgciwg" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.tiktok.com/@fgci.wg" aria-label="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+        <a href="https://x.com/fgciwg" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.threads.net/@fgci.wg" aria-label="Threads"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
+    </div>
+    <p>Made by TYCITC MEDIA</p>
+</section>
 
-        </div>
+<script>
+    const navLinks = document.getElementById('navLinks');
+    function showMenu() { navLinks.style.right = '0'; }
+    function hideMenu() { navLinks.style.right = '-200px'; }
 
-
-       </section>
-
-
-        <!-----Footer----->
-
-        <section class="footer">
-            <h4>About Us</h4>
-            <p>To reach and equip our generation to discover their purpose in life through contemporary,
-                <br>creative and caring ways, which will result in a million-member church of fully devoted
-                Christians with countless branches across the globe.</p>
-                <div class="icons">
-                    <a href="https://web.facebook.com/fgci.wg"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/fgci.wg?igsh=c2p4bXB1N2ZtcHVz"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/@fgciwg"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.tiktok.com/@fgci.wg?_t=8kFPshHBYsI&_r=1"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://x.com/fgciwg?s=21&t=MZ_CglXidKsnsfsbO6uu8w"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.threads.net/@fgci.wg?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-threads"></i></a>
-                </div>
-                <p>Made by TYCITC MEDIA</p>
-
-
-
-
-
-        <!-----Javascript for Toggle Menu----->
-        <script>
-
-            var navLinks = document.getElementById("navLinks");
-            function showMenu(){
-                navLinks.style.right = "0";
-            }
-            function hideMenu(){
-                navLinks.style.right = "-200px";
-            }
-        </script>
-    </body>
-
+    const status = new URLSearchParams(window.location.search).get('status');
+    const statusBox = document.getElementById('form-status');
+    if (status === 'success') {
+        statusBox.textContent = 'Thank you. Your message has been sent successfully.';
+    } else if (status === 'error') {
+        statusBox.textContent = 'Sorry, your message could not be sent. Please try again or contact us directly by email.';
+    }
+</script>
+</body>
 </html>
