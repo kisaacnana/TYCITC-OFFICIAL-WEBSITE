@@ -1,11 +1,13 @@
 {
     "rewrites": [
+      { "source": "/", "destination": "/index.html" },
       { "source": "/about", "destination": "/about.html" },
       { "source": "/give", "destination": "/give.html" },
       { "source": "/successful", "destination": "/successful.html" },
       { "source": "/unsuccessful", "destination": "/unsuccessful.html" },
       { "source": "/contact", "destination": "/contact.html" },
       { "source": "/mission", "destination": "/mission.html" },
-      { "source": "/blog", "destination": "/blog.html" }
+      { "source": "/blog", "destination": "/blog.html" },
+      { "source": "/(.*)", "destination": "/404.html" }
     ]
-  }
+}
